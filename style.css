@@ -1,0 +1,281 @@
+/* CSS untuk ukuran layar kecil*/
+@media (max-width: 639px) {
+  #show {
+    display: none;
+  }
+  .main-text {
+    color: var(--black-dope);
+    margin-top: 45px;
+    font-size: 1.5rem;
+  }
+  .second-text {
+    color: var(--med-gray);
+    margin-top: 60px;
+    font-size: 1.1rem;
+  }
+  .join .join-content {
+    width: 90vw;
+  }
+  #first-input {
+    width: 85%;
+    margin-left: 10%;
+  }
+}
+
+/* CSS untuk ukuran layar sedang */
+@media (min-width: 640px) and (max-width: 826px) {
+  #hide {
+    display: none;
+  }
+  .main-text {
+    color: var(--black-dope);
+    margin-top: 45px;
+    font-size: 1.7rem;
+  }
+  .second-text {
+    color: var(--med-gray);
+    margin-top: 60px;
+    font-size: 1.1rem;
+  }
+  .profiles-caption {
+    margin-left: 1.5rem;
+  }
+  .join .join-content {
+    width: 80vw;
+  }
+  #first-input {
+    width: 100%;
+  }
+}
+
+/* CSS untuk ukuran layar besar */
+@media (min-width: 824px) {
+  #hide {
+    display: none;
+  }
+  .main-text {
+    color: var(--black-dope);
+    margin-top: 45px;
+    font-size: 4rem;
+  }
+  .second-text {
+    color: var(--med-gray);
+    margin-top: 60px;
+    font-size: 1.3rem;
+  }
+  .profiles-caption {
+    margin-left: 1.5rem;
+  }
+  .join .join-content {
+    width: 45vw;
+  }
+  #first-input {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* CSS Tag */
+header {
+  display: block;
+  background-color: var(--light-gray);
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+label {
+  vertical-align: middle;
+}
+
+/* CSS Color */
+:root {
+  --red: #de3f1c;
+  --grey: #949eb2;
+  --light-gray: #f3f4f6;
+  --black-dope: #38404f;
+  --med-gray: #778298;
+  --green: #65d777;
+  --sage: #81d67e;
+  --gray: #808080;
+}
+.red-text {
+  color: var(--red);
+}
+
+/* CSS Font Size*/
+.font-1 {
+  font-size: 16.2px;
+}
+.font-2 {
+  font-size: 17px;
+}
+.font-3 {
+  font-size: 1.5rem;
+}
+.font-4 {
+  font-size: 1rem;
+}
+
+/* Font Style and Text*/
+.text {
+  font-family: "source-serif-pro";
+}
+.text-content {
+  margin-top: 10px;
+  line-height: 1.5;
+  margin-right: -1rem;
+  margin-left: -1rem;
+}
+.text-content h3 {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 400;
+}
+.text-content h4 {
+  margin-top: 20px;
+  text-decoration: none;
+  color: var(--gray);
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.center {
+  text-align: center;
+  align-content: center;
+}
+.regular {
+  font-weight: 500;
+}
+.bold {
+  font-weight: bold;
+}
+.bold-1 {
+  font-weight: 700;
+}
+.bold-2 {
+  font-weight: 400;
+}
+.bold-3 {
+  font-weight: 600;
+}
+
+/* CSS Class */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.border-top {
+  margin-top: 15px;
+  border-top-color: #f3f4f6;
+  border-top-style: solid;
+}
+.border-bottom {
+  border-bottom-color: #f3f4f6;
+  border-bottom-style: solid;
+}
+.nav-item {
+  margin-right: 12px;
+}
+.nav .nav-item a {
+  color: var(--grey);
+}
+.nav .nav-item a:hover {
+  color: var(--grey);
+  text-decoration: underline;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+.main-content {
+  margin-top: 5rem;
+  padding: 20px;
+}
+.profiles {
+  margin-top: 3rem;
+}
+.profiles-img {
+  border-radius: 50%;
+}
+.join {
+  margin-top: 5rem;
+}
+.join .join-content {
+  background-color: var(--light-gray);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: left;
+}
+.form {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.form-input {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 0px 0 rgba(56, 64, 79, 0.3), 0 1px 1px 0 rgba(9, 24, 54, 0.24), 0 2px 5px 0 rgba(9, 24, 54, 0.06);
+  background-color: white;
+  height: 52px;
+}
+.button-started {
+  position: absolute;
+  height: 52px;
+  width: 7.5rem;
+  padding: 8px 16px;
+  border: none;
+  border-left: 1px solid #ccc;
+  font-weight: 500;
+  background-color: var(--green);
+  transition: background-color 0.3s;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.62rem;
+  border-radius: 2px;
+}
+
+/* CSS ID */
+#logo {
+  width: 200px;
+  position: relative;
+}
+#stick {
+  width: 5rem;
+}
+.main-content #title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3.2rem;
+}
+.main-content #title-link {
+  color: var(--red);
+  text-decoration: none;
+}
+.main-content #title-link:hover {
+  color: var(--red);
+  text-decoration: underline;
+}
+#join-text {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--gray);
+}
+.profiles-caption #profiles-main {
+  color: var(--gray);
+}
